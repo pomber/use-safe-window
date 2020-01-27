@@ -2,7 +2,7 @@
   "name": "use-safe-window",
   "author": "Rodrigo Pombo",
   "description": "React hook to bypass SSR errors when using the window object",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/use-safe-window.esm.js",
