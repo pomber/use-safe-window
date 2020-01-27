@@ -34,6 +34,24 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
+## Why
+
+I get the same error in every server-side rendered React project:
+
+> `ReferenceError: window is not defined`
+
+I got tired and published the code to npm.
+
+The hook is just:
+
+```js
+function useSafeWindow(fn, def) {
+  return typeof window !== "undefined" ? fn(window) : def;
+}
+```
+
+Well, it's probably not even a hook but safe-window was already taken in npm 🤷
+
 ## MIT License
 
 Copyright (c) 2020 Rodrigo Pombo

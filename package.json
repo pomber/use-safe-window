@@ -1,7 +1,7 @@
 {
   "name": "use-safe-window",
   "author": "Rodrigo Pombo",
-  "description": "",
+  "description": "React hook to bypass SSR errors when using the window object",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -11,14 +11,9 @@
     "dist"
   ],
   "scripts": {
-    "start": "tsdx watch -i index.ts",
-    "build": "tsdx build -i index.ts",
-    "lint": "tsdx lint -i index.ts",
-    "prepare": "tsdx build -i index.ts"
-  },
-  "devDependencies": {
-    "tsdx": "^0.12.3",
-    "tslib": "^1.10.0",
-    "typescript": "^3.7.5"
+    "start": "npx tsdx@0.12.3 watch -i index.ts",
+    "build": "npx tsdx@0.12.3 build -i index.ts",
+    "lint": "npx tsdx@0.12.3 lint -i index.ts",
+    "prepare": "npx tsdx@0.12.3 build -i index.ts"
   }
 }
