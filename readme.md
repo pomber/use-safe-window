@@ -11,7 +11,7 @@ Use
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import useSafeWindow from "use-safe-window";
+import { useSafeWindow } from "use-safe-window";
 
 function App() {
   // origin will be `undefined` on the server
