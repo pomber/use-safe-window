@@ -3,18 +3,9 @@
   "author": "Rodrigo Pombo",
   "repository": "pomber/use-safe-window",
   "description": "React hook to bypass SSR errors when using the window object",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/use-safe-window.esm.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "start": "npx tsdx@0.12.3 watch -i index.ts",
-    "build": "npx tsdx@0.12.3 build -i index.ts",
-    "lint": "npx tsdx@0.12.3 lint -i index.ts",
-    "prepare": "npx tsdx@0.12.3 build -i index.ts"
-  }
+  "main": "index.cjs.js",
+  "module": "index.esm.js",
+  "typings": "index.d.ts"
 }
