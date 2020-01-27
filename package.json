@@ -1,6 +1,7 @@
 {
   "name": "use-safe-window",
   "author": "Rodrigo Pombo",
+  "repository": "pomber/use-safe-window",
   "description": "React hook to bypass SSR errors when using the window object",
   "version": "0.1.1",
   "license": "MIT",
