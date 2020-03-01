@@ -19,7 +19,7 @@ function App() {
 
   // [800, 450] on the server, replaced by the values from window on the client
   const [width, height] = useSafeWindow(
-    window => [window.innerHeight, window.innerHeight],
+    window => [window.innerWidth, window.innerHeight],
     [800, 450]
   );
 
